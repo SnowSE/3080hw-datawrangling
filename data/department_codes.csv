@@ -1,0 +1,7 @@
+dept_code,department_name,floor
+CARD,Cardiology,3
+EMER,Emergency,1
+RAD,Radiology,2
+SURG,Surgery,4
+ORTH,Orthopedics,3
+NEURO,Neurology,5

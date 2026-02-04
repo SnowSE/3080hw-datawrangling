@@ -1,0 +1,42 @@
+name: Autograder
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Test Function 1 - map_insurance_codes
+      run: python test_1.py
+      
+    - name: Test Function 2 - encode_gender
+      run: python test_2.py
+      
+    - name: Test Function 3 - join_patient_billing
+      run: python test_3.py
+      
+    - name: Test Function 4 - pivot_bed_type_costs
+      run: python test_4.py
+      
+    - name: Test Function 5 - group_by_department
+      run: python test_5.py
+    
+    - name: All Tests Passed
+      run: echo "✅ All tests passed successfully!"

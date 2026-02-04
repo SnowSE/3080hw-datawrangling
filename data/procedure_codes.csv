@@ -1,0 +1,7 @@
+procedure_code,procedure_name,category
+PROC123,Cardiac Catheterization,Diagnostic
+PROC234,Emergency Room Visit,Emergency
+PROC456,X-Ray Imaging,Imaging
+PROC567,General Surgery,Surgery
+PROC789,Orthopedic Consultation,Consultation
+PROC890,Neurological Assessment,Diagnostic

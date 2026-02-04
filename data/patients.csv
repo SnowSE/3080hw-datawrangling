@@ -1,0 +1,16 @@
+patient_id,first_name,last_name,dob,gender,admission_date,discharge_date,insurance_type
+P001,John,Smith,1985-03-15,M,2024-01-10,2024-01-15,PPO
+P002,Mary,Johnson,1978-07-22,F,2024-01-12,2024-01-14,HMO
+P003,Robert,Williams,1992-11-08,M,2024-01-13,,Medicare
+P004,Patricia,Brown,1965-05-30,F,2024-01-11,2024-01-18,Medicaid
+P005,Michael,Jones,1988-09-12,M,2024-01-15,2024-01-20,PPO
+P006,Jennifer,Garcia,1973-12-03,F,2024-01-16,2024-01-19,HMO
+P007,William,Martinez,1995-02-28,M,2024-01-17,,PPO
+P008,Linda,Rodriguez,1982-06-17,F,2024-01-18,2024-01-22,Medicare
+P009,David,Davis,1970-10-25,M,2024-01-19,2024-01-21,HMO
+P010,Elizabeth,Lopez,1998-04-14,F,2024-01-20,2024-01-23,Medicaid
+P011,James,Gonzalez,1987-08-09,M,2024-01-21,,PPO
+P012,Barbara,Wilson,1960-01-20,F,2024-01-22,2024-01-25,Medicare
+P013,Richard,Anderson,1993-07-05,M,2024-01-23,2024-01-26,HMO
+P014,Susan,Thomas,1975-11-18,F,2024-01-24,2024-01-27,PPO
+P015,Joseph,Taylor,1989-03-30,M,2024-01-25,,Medicaid
