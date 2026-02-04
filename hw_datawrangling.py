@@ -133,28 +133,3 @@ def group_by_department(billing_df):
 
 if __name__ == "__main__":
     # This section is for your own testing
-    # Load the data
-    patients = pd.read_csv('./data/patients.csv')
-    billing = pd.read_csv('./data/billing.csv')
-    resources = pd.read_csv('./data/resources.csv')
-    
-    # Test your functions here
-    print("Testing map_insurance_codes:")
-    result1 = map_insurance_codes(patients.copy())
-    print(result1[['patient_id', 'insurance_type', 'insurance_full_name']].head())
-    
-    print("\nTesting encode_gender:")
-    result2 = encode_gender(patients.copy())
-    print(result2[['patient_id', 'gender', 'gender_M', 'gender_F']].head())
-    
-    print("\nTesting join_patient_billing:")
-    result3 = join_patient_billing(patients, billing)
-    print(result3[['patient_id', 'first_name', 'last_name', 'bill_id', 'charge_amount']].head())
-    
-    print("\nTesting pivot_bed_type_costs:")
-    result4 = pivot_bed_type_costs(resources)
-    print(result4)
-    
-    print("\nTesting group_by_department:")
-    result5 = group_by_department(billing)
-    print(result5)
