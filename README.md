@@ -68,9 +68,9 @@ Complete the five functions in `hw_datawrangling.py`. Each function has a detail
 
 **Example output:**
 ```
-  patient_id gender  gender_M  gender_F
-0       P001      M         1         0
-1       P002      F         0         1
+   patient_id first_name  last_name         dob gender admission_date ... gender_F  gender_M
+0        P001       John      Smith  1985-03-15      M     2024-01-10 ...        0         1
+1        P002       Mary    Johnson  1978-07-22      F     2024-01-12 ...        1         0
 ```
 
 ---
@@ -87,9 +87,9 @@ Complete the five functions in `hw_datawrangling.py`. Each function has a detail
 
 **Example output:**
 ```
-  patient_id first_name last_name  ... bill_id procedure_code charge_amount
-0       P001       John     Smith  ...   B1001        PROC123       2500.00
-1       P001       John     Smith  ...   B1002        PROC456        450.00
+  patient_id first_name last_name  ... bill_id procedure_code dept_code ...
+0       P001       John     Smith  ...   B1001        PROC123      CARD ...
+1       P001       John     Smith  ...   B1002        PROC456       RAD ...
 ```
 
 ---
